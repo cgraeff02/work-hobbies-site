@@ -1,0 +1,161 @@
+body{
+  margin: 0;
+  text-align: center;  
+}
+
+.first{
+  background-color: #ffcc70;
+  height: 400px;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.intro-text{
+  align-self: center;
+  color: #fffadd;
+}
+
+h1{
+  font-family: 'Yellowtail', cursive;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-size: 20px;
+  margin: 0;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.cactus{
+  max-width: 170px;
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #22668d;
+  color: #8ecddd;
+}
+
+.profile-img{
+  width: 150px;
+  border-radius: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skills{
+  background-color: #ffcc70;
+  color: black;
+}
+
+.third{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  
+}
+
+.link{
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.left{
+  height: 80px;
+}
+
+.right{
+  height: 80px;
+}
+
+.dual{
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  text-align: left;
+  padding: 10px;
+}
+
+.henkel{
+  text-align: right;
+}
+
+.experiences{
+  background-color: #22668d;
+  color: #8ecddd;
+}
+
+.under{
+  padding: 10px;
+  text-decoration: underline;
+}
+
+.gl{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-bottom: 20px;
+}
+
+.center{
+  height: 120px;
+}
+
+.learning{
+  background-color: #ffcc70;
+  color: black;
+}
+
+.contact{
+  background-color: #22668d;
+  color: #8ecddd;
+  padding-bottom: 20px;
+}
+
+.sixth{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sixth > p{
+  width: 250px;
+}
+
+.mailer{
+  color: #8ecddd;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+@media (max-width: 700px){
+  .gl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gl > div > p{
+    padding-bottom: 10px;
+    width: 250px;
+  }
+
+}
